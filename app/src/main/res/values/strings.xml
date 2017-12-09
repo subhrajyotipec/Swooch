@@ -5,13 +5,11 @@
     <string name="logoimage">logoimage</string>
     <string name="background_image2">background_image2</string>
     <string name="men">MEN</string>
-    <string name="men">MEN</string>
-    <string name="men">MEN</string>
-    <string name="woman">WOMAN</string>
-    <string name="woman">WOMAN</string>
     <string name="woman">WOMAN</string>
     <string name="co_ed">CO-ED</string>
-    <string name="co_ed">CO-ED</string>
-    <string name="co_ed">CO-ED</string>
-    <string name="get_started">GET STARTED</string>
+    <string name="done">Done</string>
+    <string name="proceed">Proceed</string>
+    <string name="background_image3">background_image3</string>
+    <string name="newbie">newbie</string>
+    <string name="expert">expert</string>
 </resources>
