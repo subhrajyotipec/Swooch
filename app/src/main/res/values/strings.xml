@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Swooch</string>
+    <string name="background_image">background_image</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="logoimage">logoimage</string>
+    <string name="background_image2">background_image2</string>
+    <string name="men">MEN</string>
+    <string name="men">MEN</string>
+    <string name="men">MEN</string>
+    <string name="woman">WOMAN</string>
+    <string name="woman">WOMAN</string>
+    <string name="woman">WOMAN</string>
+    <string name="co_ed">CO-ED</string>
+    <string name="co_ed">CO-ED</string>
+    <string name="co_ed">CO-ED</string>
+    <string name="get_started">GET STARTED</string>
 </resources>
