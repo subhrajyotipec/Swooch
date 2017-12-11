@@ -8,6 +8,8 @@ open class ActivityLifecycle : AppCompatActivity() {
 
     val TAG = "LifeCycle"
 
+//    only for displaying state in the logs for activities
+
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG,"${javaClass.simpleName}OnCreate")
         super.onCreate(savedInstanceState)

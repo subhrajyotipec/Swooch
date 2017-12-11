@@ -50,11 +50,12 @@
         app:layout_constraintVertical_bias="0.413">
 
         <ToggleButton
-            android:id="@+id/toggleButton"
+            android:id="@+id/menLeaguebtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onmenclicked"
             android:text="@string/men"
             android:textColor="@android:color/white"
             android:textOff="@string/men"
@@ -63,12 +64,13 @@
             tools:layout_editor_absoluteY="55dp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton2"
+            android:id="@+id/womanLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/swoosh_toggle"
             android:checked="false"
+            android:onClick="onwomanclicked"
             android:text="@string/woman"
             android:textColor="@android:color/white"
             android:textOff="@string/woman"
@@ -77,10 +79,11 @@
             tools:layout_editor_absoluteY="55dp" />
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/coedLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="oncoedclicked"
             android:text="@string/co_ed"
             android:textColor="@android:color/white"
             android:textOff="@string/co_ed"
@@ -100,6 +103,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/swoosh_button"
+        android:onClick="openSkillActivity"
         android:text="@string/proceed"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
