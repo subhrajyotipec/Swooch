@@ -12,4 +12,5 @@
     <string name="background_image3">background_image3</string>
     <string name="newbie">newbie</string>
     <string name="expert">expert</string>
+    <string name="background_image4" />
 </resources>
